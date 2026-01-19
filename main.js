@@ -1,0 +1,1 @@
+console.log("Geek Neon iniciado ⚡");
