@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Roboto:wght@300;400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,153 +7,18 @@
 }
 
 body {
-  background: #0a0a0f;
-  color: #fff;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: #e5e7eb;
   font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background: #05050a;
-  border-bottom: 1px solid #1f1f2e;
-}
-
-.logo {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 24px;
-  color: #00f7ff;
-}
-
-.logo span {
-  color: #a855f7;
-}
-
-nav a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #fff;
-  position: relative;
-}
-
-nav a::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  background: #00f7ff;
-  left: 0;
-  bottom: -5px;
-  transition: 0.3s;
-}
-
-nav a:hover::after {
-  width: 100%;
-}
-
+/* ===== HEADER / HERO ===== */
 .hero {
-  height: 90vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.hero h2 {
-  font-size: 48px;
-  font-family: 'Orbitron', sans-serif;
-}
-
-.hero span {
-  color: #00f7ff;
-  text-shadow: 0 0 15px #00f7ff;
-}
-
-.hero p {
-  margin: 20px 0;
-  color: #ccc;
-}
-
-.btn {
-  padding: 12px 30px;
-  border: 2px solid #a855f7;
-  color: #a855f7;
-  text-decoration: none;
-  border-radius: 30px;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: #a855f7;
-  color: #000;
-  box-shadow: 0 0 20px #a855f7;
-}
-
-.section {
-  padding: 80px 40px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.section h3 {
-  font-family: 'Orbitron', sans-serif;
-  margin-bottom: 20px;
-  color: #00f7ff;
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-}
-
-.card {
-  background: #111;
-  padding: 30px;
-  border-radius: 15px;
-  text-align: center;
-  border: 1px solid #222;
-  transition: 0.3s;
-}
-
-.card:hover {
-  box-shadow: 0 0 20px #00f7ff;
-  transform: translateY(-5px);
-}
-
-.footer {
-  text-align: center;
-  padding: 20px;
-  background: #05050a;
-  color: #777;
-}
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-}
-
-.hero h1 {
-  font-size: 3rem;
-}
-
-.section {
-  max-width: 900px;
-  margin: auto;
-  padding: 60px 20px;
-}
-
-.cards {
-  display: flex;
-  gap: 20px;
-  padding: 40px 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.card {
-  max-width: 280px;
-}
-
+  padding: 40px 20px
